@@ -20,5 +20,5 @@ Suggests:
     gputools
 License: MIT
 LazyData: false
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Remotes: rqtl/qtl2
