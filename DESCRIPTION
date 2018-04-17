@@ -1,0 +1,24 @@
+Package: linkagemapping2
+Title: Functions for the Mapping of Andersen Lab RIAILs and RILs using qtl2
+Version: 0.1.0
+Authors@R: person("Shannon", "Brady", email = "shannonbrady2014@u.northwestern.edu", role = c("aut", "cre"))
+Description: Facilitates mapping of RIAILs and RILs using qtl2
+Depends:
+    R (>= 3.2.0)
+Imports:
+    dplyr,
+    foreach,
+    ggplot2,
+    gtools,
+    qtl,
+    qtl2,
+    RcppEigen,
+    RSQLite,
+    tidyr,
+    Hmisc
+Suggests:
+    gputools
+License: MIT
+LazyData: false
+RoxygenNote: 5.0.1
+Remotes: rqtl/qtl2
